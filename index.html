@@ -4,21 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>git 
+    <title>Basic Semantic Layout Exercise</title>
+    <style>
+        .nav__link{
+            margin-left: 2%;
+            float: left;
+        }
+    </style>
 </head>
-<body>
+<body style="padding: 0; margin: 0; text-align: center;">
     <!--HEADER SECTION-->
-    <header>
+    <header style="background-color: blue; padding: 0; margin:0;">
         <h1>Header</h1>
         <!--Navigation Section-->
-        <nav>
-            <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Contact</li>
+        <nav style="background-color: lightcyan; padding: 0; margin: 0; height: 20%;">
+            <ul style="list-style: none; height: 20%;">
+                <li class="nav__link"><a href="#">Home</a></li>
+                <li class="nav__link"><a href="#">About</a></li>
+                <li class="nav__link"><a href="#">Contact</a></li>
             </ul>
         </nav>
     </header>
+
 
 </body>
 </html>
